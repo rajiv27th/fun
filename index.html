@@ -3,7 +3,7 @@
 <head>
   <title>Fun!</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#41B4FF">
 	<style>
 		body, html {
@@ -12,20 +12,16 @@
 			padding: 0;
 		}
 
-		.bg {
-			/* The image used */
-			background-image: url("./photo.jpg");
-
-			/* Full height */
-			height: 100%;
-
-			/* Center and scale the image nicely */
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
+	body {
+		width: 100vw;
+  	height: 100vh;
+		background-image: url("./photo.jpg");
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  }
+	
 		h1 {
-		  position: absolute;
+			position: absolute;
 		  left: 0;
 		  top: 10%;
 		  width: 100%;
@@ -36,8 +32,6 @@
 </head>
 
 <body>
-	<div class="bg">
-		<h1>No with border</h1>
-	</div>
+	<h1>Hi</h1>
 </body>
 </html>
